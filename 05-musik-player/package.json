@@ -3,14 +3,19 @@
   "version": "0.3.0",
   "description": "build musik player on React",
   "main": "MusicPlayer.js",
-  
   "author": "Irvan",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": ""
   },
-   "dependencies": {
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
     "autoprefixer": "^8.6.2",
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.1",
